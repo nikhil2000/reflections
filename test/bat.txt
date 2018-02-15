@@ -1,0 +1,2 @@
+this is not a bat file 
+you should end it with .bat to make it a batch file

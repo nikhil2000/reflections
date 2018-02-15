@@ -1,0 +1,1 @@
+-->type "git init" in bash by opening a folder to make it a repository.

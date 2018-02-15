@@ -1,0 +1,37 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+-->it shows what code was changed
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+   i can learn my mistakes and changes i made
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    it wont be a chaos whenu save it yourself
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+	git knows every file is important and should    be stored
+
+How can you use the commands git log and git diff git clone to view the history of files?
+	git log:by running in cmd, (GIT LOG,after being in the repository)we get all git versions we saved
+	git diff: now collect the ids of versions that we want to compare (GIT DIFF COMMIT1 COMMIT2)
+	git clone:for copying a repository into our local.(GIT CLONE URL-OF-REPOSITORY)
+	
+How might using version control make you more confident to make changes that
+could break something?
+    because i can reverse them using git checkout "commit id" option.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+for setting workspace type:
+						alias npp='winpty "C:/Program Files (x86)/Notepad++/notepad++.exe"'(for notepad ++)
+						alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"(for sublime)
+						the address of the sublime,where it installed is specified.
+ for configure editor:  git config core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"(note++)
+
+	
+	
